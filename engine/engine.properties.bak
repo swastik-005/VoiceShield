@@ -1,0 +1,31 @@
+# Path to the ONNX anti-spoofing model. Relative paths are resolved from the engine/ directory.
+onnx.modelPath=models/voice_scam.onnx
+
+# Spoof decision threshold on spoofProbability (Python SDK default was 0.5).
+threshold=0.5
+
+server.port=8080
+server.host=0.0.0.0
+
+# Comma-separated origins for the React Vite frontend and Android WebView.
+cors.origins=http://localhost:5173,http://127.0.0.1:5173,http://10.92.1.30:5173,https://appassets.androidplatform.net
+
+audio.sampleRate=16000
+audio.windowDurationS=1.0
+audio.windowOverlapS=0.5
+
+stream.historyWindows=20
+alert.consecutiveSpoofWindows=3
+
+# Streaming Zipformer ASR (sherpa-onnx). Server starts if the dir is empty.
+asr.enabled=true
+asr.modelDir=models/sherpa-onnx-streaming-zipformer-en-2023-06-26
+asr.encoder=
+asr.decoder=
+asr.joiner=
+asr.tokens=tokens.txt
+asr.numThreads=1
+asr.provider=cpu
+
+# One scam phrase per line. Relative to engine/.
+keywords.path=keywords.txt

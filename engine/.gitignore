@@ -1,0 +1,7 @@
+.gradle/
+build/
+.idea/
+*.iml
+models/*.onnx
+models/sherpa-onnx-*/
+!models/.gitkeep

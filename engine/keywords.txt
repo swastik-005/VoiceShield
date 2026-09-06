@@ -1,0 +1,113 @@
+# Phrases from scam_voice_detection_lexicon.pdf
+urgent
+immediately
+right now
+deadline
+last chance
+act now
+blocked
+suspended
+terminated
+arrested
+legal action
+police
+penalty
+fine
+warrant
+investigation
+bank account
+account number
+IFSC
+UPI
+transaction
+payment
+transfer
+beneficiary
+OTP
+verification code
+PIN
+password
+passcode
+authentication
+security code
+card number
+CVV
+expiry
+debit card
+credit card
+ATM
+card verification
+Aadhaar
+PAN
+KYC
+verification
+personal details
+AnyDesk
+TeamViewer
+screen sharing
+bank officer
+police officer
+government
+RBI
+customs
+courier
+customer care
+congratulations
+winner
+lottery
+prize
+reward
+lucky draw
+jackpot
+guaranteed return
+investment opportunity
+double your money
+parcel
+shipment
+clearance
+refund
+trust me
+help me
+emergency
+stranded
+send money
+don't tell anyone
+keep this confidential
+do not share
+between you and me
+don't inform anyone
+Your account has been blocked.
+Your account will be suspended.
+You need to verify your account.
+Your KYC has expired.
+Share the OTP.
+Tell me the verification code.
+Confirm your PIN.
+Give me your card details.
+Install this application.
+Download this app.
+Share your screen.
+Transfer the money.
+Make the payment immediately.
+You have won a prize.
+You have won the lottery.
+Your parcel has been seized.
+There is a legal case against you.
+The police will arrest you.
+You will face legal action.
+Your number will be disconnected.
+Your SIM will be blocked.
+Your electricity connection will be disconnected.
+Your refund is pending.
+We need your bank details to process the refund.
+This is a verification call.
+I am calling from the bank.
+I am calling from customer care.
+I am calling from the government department.
+I'm calling from your bank. You need to do this immediately.
+If you don't complete the verification today, your account will be blocked.
+Tell me the OTP you just received.
+Install this application so I can help you fix the problem.
+Transfer money so we can process your refund.
+Don't tell anyone about this call.
+I'm calling from the police/bank/customs department.
