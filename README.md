@@ -1,7 +1,4 @@
 # VoiceShield
-Voice Anti-spoofing
-# VoiceShield
-
 VoiceShield is a live unknown-call monitor. The system Phone app still receives every call. When the number is not in the address book, VoiceShield asks permission to listen on speaker, transcribe the caller, score the speech against a scam lexicon, draw a live spectrogram, and optionally run an ONNX anti-spoofing model.
 
 This repository is **live-call only**. There is no upload/batch product UI. The Kotlin engine still exposes `/predict` for debugging audio files.
