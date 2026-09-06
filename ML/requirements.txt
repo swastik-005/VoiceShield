@@ -1,0 +1,28 @@
+# pip install -r requirements.txt   (activate the venv first)
+#
+# Versions are floors, not pins - anything newer works. torchaudio must match
+# the torch it was built against, so install them together rather than
+# upgrading one alone.
+torch>=2.1
+torchaudio>=2.1
+soundfile>=0.12     # audio decoding; libsndfile is bundled, no system install
+matplotlib>=3.7     # spectrogram preview images only
+tqdm>=4.66        # training progress bars; training still runs without it
+
+# ffmpeg is NOT a python package. It is optional, and only needed to decode
+# mp3/m4a that libsndfile cannot read, and for the standalone
+# phone_call_effect.py tool. WAV/FLAC/OGG need nothing.
+#   Windows: winget install --id Gyan.FFmpeg -e
+#   macOS:   brew install ffmpeg
+#   Linux:   sudo apt install ffmpeg
+
+# export_onnx.py only. Not needed to train, and NOT what runs on the phone -
+# the phone uses the onnxruntime-android Gradle dependency instead.
+onnx>=1.15
+onnxruntime>=1.17
+
+# The Bluetooth relay (tools/sco_relay.py) only. Windows-only and deliberately
+# NOT installed by default: PyAudioWPatch has no wheels for macOS or Linux and
+# would break the install on a training machine that never touches a handset.
+#   pip install PyAudioWPatch websockets
+# tools/check_sco.py needs neither - numpy and soundfile above are enough.
